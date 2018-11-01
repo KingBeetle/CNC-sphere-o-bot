@@ -15,8 +15,8 @@
 // EBB-Coordinates are coming in for 16th-Microstepmode. The Coordinate-Transforms are done in weired integer-math. Be careful, when you diecide to modify settings.
 
 // This code has been modified by Warren Watts (kingbeetle66@gmail.com) to work with a standard
-// Arduino CNCdeclarations have been modified from the original source, since the CNC shield utilizes
-// different pins than the shield this code was orgininally written for.  
+// Arduino CNC shield. The pin declarations have been modified from the original source, because 
+// the CNC shield utilizes different pins than the shield this code was orgininally written for.  
 // The original pin declarations appear in the code below for reference.
 // The stepper drivers should be plugged into the X and Y sockets on the shield with the X driver 
 // connected to the rotation stepper, and the Y driver connected to the pen stepper.
